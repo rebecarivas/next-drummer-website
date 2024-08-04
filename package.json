@@ -1,0 +1,25 @@
+{
+  "name": "next-drummer-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint-check": "prettier --check .",
+    "lint-fix": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
