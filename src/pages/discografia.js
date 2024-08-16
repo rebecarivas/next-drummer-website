@@ -3,7 +3,7 @@ import HoverDisk from "../Components/Discografia/HoverDisk.js";
 import Vereda from "../../public/assets/veredacaminho.png";
 import Avista from "../../public/assets/avistadoponto.jpeg";
 import Sandroni from "../../public/assets/sandroni.jpg";
-import Oar from "../../public/assets/oAr.png";
+import Oar from "../../public/assets/oar.jpg";
 import Saracotia from "../../public/assets/saracotia.jpg";
 import Fimde from "../../public/assets/fimdefeira.jpg";
 import Sonoris from "../../public/assets/sonoris.jpg";
