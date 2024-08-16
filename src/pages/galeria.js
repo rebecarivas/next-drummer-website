@@ -4,7 +4,7 @@ import MarcioSanta from "../../public/assets/MarcioSanta.jpg";
 import Circular from "../../public/assets/circular.jpg";
 import SaracaColombia from "../../public/assets/SaracotiaColombia2.jpg";
 import Fimdefeira from "../../public/assets/fimde.jpg";
-import Marciocolombia from "../../public/assets/Marciocolombia.jpg";
+import Marciocolombia from "../../public/assets/marciocolombia.jpg";
 import Marciovert from "../../public/assets/marciovert.jpg";
 import Circular2 from "../../public/assets/circular2.jpg";
 import Marcio2 from "../../public/assets/marcio2.jpg";
