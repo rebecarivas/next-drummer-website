@@ -53,6 +53,9 @@ const Wrapper = styled.div`
     font-size: 2rem;
     font-weight: bold;
   }
+  @media (max-width: 992px) {
+    height: auto;
+  }
 `;
 const BoxWrapper = styled.div`
   display: flex;
@@ -115,8 +118,11 @@ const Box = styled.div`
   }
   @media (max-width: 992px) {
     margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
     p {
       text-align: center;
+      font-size: 1.5rem;
     }
   }
 `;
