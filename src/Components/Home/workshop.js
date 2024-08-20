@@ -26,7 +26,9 @@ function Workshop() {
   return (
     <Wrapper>
       <div className="container">
-        <p style={{ marginBottom: "70px" }}>{t("workshop")}</p>
+        <p style={{ marginBottom: "70px", fontWeight: "bold" }}>
+          {t("workshop")}
+        </p>
         <BoxWrapper>
           <Box className="hidden">
             <p>{t("ritmos")}</p>
@@ -51,7 +53,6 @@ const Wrapper = styled.div`
   height: 80vh;
   p {
     font-size: 2rem;
-    font-weight: bold;
   }
   @media (max-width: 992px) {
     height: auto;
@@ -115,6 +116,7 @@ const Box = styled.div`
 
   p {
     color: var(--gray);
+    font-size: 1.8rem;
   }
   @media (max-width: 992px) {
     margin-bottom: 30px;

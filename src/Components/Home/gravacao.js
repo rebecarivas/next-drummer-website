@@ -9,7 +9,12 @@ function Gravacao() {
     <Wrapper>
       <Container className="container">
         <p
-          style={{ color: "#fee180", fontSize: "2rem", paddingBottom: "20px" }}
+          style={{
+            color: "#fee180",
+            fontSize: "2rem",
+            paddingBottom: "20px",
+            fontWeight: "bold",
+          }}
         >
           {t("gravar")}
         </p>
@@ -36,7 +41,6 @@ const Wrapper = styled.div`
   p {
     color: var(--gray);
     font-size: 1.7rem;
-    font-weight: bold;
   }
   a {
     background-color: var(--yellow);
