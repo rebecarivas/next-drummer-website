@@ -59,6 +59,42 @@ const Wrapper = styled.div`
     height: auto;
   }
 `;
+const Box = styled.div`
+  background-color: var(--lightblack);
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+
+  p {
+    color: var(--gray);
+    font-size: 1.8rem;
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    &.hidden {
+      opacity: 0;
+      transform: translateX(-100%);
+      transition: all 2s;
+    }
+
+    &.animate {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateX(0);
+      transition: all 2s;
+    }
+  }
+`;
 const BoxWrapper = styled.div`
   display: flex;
   justify-content: space-between;
@@ -78,54 +114,5 @@ const BoxWrapper = styled.div`
   @media (max-width: 992px) {
     flex-direction: column;
     align-items: center;
-  }
-`;
-const Box = styled.div`
-  background-color: var(--lightblack);
-  width: 250px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 50%;
-  &.hidden {
-    opacity: 0;
-    filter: blur(2px);
-    transform: translateX(-100%);
-    transition: all 2s;
-  }
-
-  &.animate {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-    transition: all 2s;
-    /* animation: tilt-in-fwd-bl 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    @keyframes tilt-in-fwd-bl {
-      0% {
-        transform: rotateY(-20deg) rotateX(-35deg) translate(-300px, 300px)
-          skew(-35deg, 10deg);
-        opacity: 0;
-      }
-      100% {
-        transform: rotateY(0) rotateX(0deg) translate(0, 0) skew(0deg, 0deg);
-        opacity: 1;
-      }
-    } */
-  }
-
-  p {
-    color: var(--gray);
-    font-size: 1.8rem;
-  }
-  @media (max-width: 992px) {
-    margin-bottom: 30px;
-    width: 200px;
-    height: 200px;
-    p {
-      text-align: center;
-      font-size: 1.5rem;
-    }
   }
 `;
