@@ -7,7 +7,7 @@ function HoverDisk({ href, src, alt, text }) {
     <a href={href} target="_blank" rel="noopener noreferrer">
       <HoverContainer>
         <ImageWrapper>
-          <Image src={src} alt={alt} />
+          <Image src={src} alt={alt} width={300} height={300} />
         </ImageWrapper>
         <HoverText>
           {text.map((line, index) => (
@@ -57,8 +57,4 @@ const HoverContainer = styled.div`
 const ImageWrapper = styled.div`
   position: relative;
   overflow: hidden;
-  img {
-    width: 300px;
-    height: 300px;
-  }
 `;
