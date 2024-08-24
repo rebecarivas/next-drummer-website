@@ -17,7 +17,6 @@ function Menu() {
     i18n.changeLanguage(newLang);
     setCurrentLang(newLang);
   };
-
   return (
     <Wrapper>
       <div className="container">
@@ -42,6 +41,8 @@ function Menu() {
               <Image
                 src={currentLang === "en" ? brFlag : enFlag}
                 alt={`${t("troca")} ${currentLang === "en" ? "português" : "inglês"}`}
+                width={20}
+                height="auto"
               />
             </button>
           </Nav>
@@ -161,10 +162,6 @@ const Nav = styled.nav`
   button {
     background-color: transparent;
     border: none;
-  }
-  img {
-    width: 20px;
-    height: auto;
   }
 
   @media (max-width: 1200px) {
