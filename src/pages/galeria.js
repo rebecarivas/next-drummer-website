@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import HoverImage from "../Components/Galeria/HoverImage";
 import MarcioSanta from "../../public/assets/MarcioSanta.jpg";

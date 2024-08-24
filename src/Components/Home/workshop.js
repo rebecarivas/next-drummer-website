@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";

@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import Form from "../Components/Contato/Form.js";
 import { FaFacebook, FaInstagram, FaYoutube, FaSpotify } from "react-icons/fa6";

@@ -1,3 +1,4 @@
+import React from "react";
 import Menu from "./Menu/menu.js";
 import Footer from "./Footer/footer.js";
 

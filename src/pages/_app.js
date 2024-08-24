@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import Global from "../../styles/global.js";
 import Layout from "../Components/Layout/index.js";

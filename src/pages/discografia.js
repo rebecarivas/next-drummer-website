@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import HoverDisk from "../Components/Discografia/HoverDisk.js";
 import Vereda from "../../public/assets/veredacaminho.png";
