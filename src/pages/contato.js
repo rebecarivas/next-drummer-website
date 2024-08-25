@@ -11,7 +11,7 @@ function Contato() {
   return (
     <>
       <Head>
-        <title>Marcio Silva - Contato</title>
+        <title>Marcio Silva - {t("contato")}</title>
       </Head>
       <Wrapper>
         <div className="container">

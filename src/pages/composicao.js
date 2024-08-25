@@ -9,7 +9,7 @@ function Composicao() {
   return (
     <>
       <Head>
-        <title>Marcio Silva - Composição</title>
+        <title>Marcio Silva - {t("composições")}</title>
       </Head>
       <Wrapper>
         <div className="container">

@@ -20,7 +20,7 @@ function Galeria() {
   return (
     <>
       <Head>
-        <title>Marcio Silva - Galeria</title>
+        <title>Marcio Silva - {t("Galeria")}</title>
       </Head>
       <Wrapper>
         <div className="container">

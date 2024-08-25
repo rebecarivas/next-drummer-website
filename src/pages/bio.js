@@ -11,7 +11,7 @@ function Bio() {
   return (
     <>
       <Head>
-        <title>Marcio Silva - Biografia</title>
+        <title>Marcio Silva - {t("bio")}</title>
       </Head>
       <Wrapper>
         <div className="container">

@@ -22,7 +22,7 @@ function Discografia() {
   return (
     <>
       <Head>
-        <title>Marcio Silva - Discografia</title>
+        <title>Marcio Silva - {t("Discografia")}</title>
       </Head>
       <Wrapper>
         <div className="container">
