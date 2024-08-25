@@ -27,24 +27,28 @@ function Contato() {
                 <a
                   href="https://www.facebook.com/marcio.silva.54966"
                   target="_blank"
+                  aria-label="Facebook"
                 >
                   <FaFacebook size={30} />
                 </a>
                 <a
                   href="https://www.instagram.com/msdrum/?igshid=pbuk1pm1ofom"
                   target="_blank"
+                  aria-label="Instagram"
                 >
                   <FaInstagram size={30} />
                 </a>
                 <a
                   href="https://open.spotify.com/user/marciosilvadrum"
                   target="_blank"
+                  aria-label="Spotify"
                 >
                   <FaSpotify size={30} />
                 </a>
                 <a
                   href="https://www.youtube.com/@MarcioSilva-kh4oe/featured"
                   target="_blank"
+                  aria-label="Youtube"
                 >
                   <FaYoutube size={30} />
                 </a>
