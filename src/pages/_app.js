@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Global />
       <Head>
-        <title>Marcio Silva</title>
         <meta
           name="description"
           content="Página pessoal do baterista Marcio Silva"
