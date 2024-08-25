@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head.js";
 import styled from "styled-components";
 import Form from "../Components/Contato/Form.js";
 import { FaFacebook, FaInstagram, FaYoutube, FaSpotify } from "react-icons/fa6";
@@ -9,6 +10,9 @@ function Contato() {
 
   return (
     <>
+      <Head>
+        <title>Marcio Silva - Contato</title>
+      </Head>
       <Wrapper>
         <div className="container">
           <h1>{t("contato")}</h1>

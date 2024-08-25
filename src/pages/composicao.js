@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
@@ -7,6 +8,9 @@ function Composicao() {
 
   return (
     <>
+      <Head>
+        <title>Marcio Silva - Composição</title>
+      </Head>
       <Wrapper>
         <div className="container">
           <h1>{t("composições")}</h1>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import styled from "styled-components";
 import HomeImage from "../../public/assets/Entrada.jpg";
 import Youtube from "../Components/Home/youtube";
@@ -9,11 +10,18 @@ import Gravacao from "../Components/Home/gravacao";
 function Home() {
   return (
     <>
+      <Head>
+        <title>Marcio Silva</title>
+      </Head>
       <Main>
         <Image
           src={HomeImage}
           alt="Marcio Silva na bateria"
-          style={{ width: "100vw", height: "auto", filter: "grayscale(50%)" }}
+          style={{
+            width: "100vw",
+            height: "auto",
+            filter: "grayscale(50%)",
+          }}
         />
         <Workshop />
         <Youtube />

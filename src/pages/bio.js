@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import styled from "styled-components";
 import Image from "next/image";
 import BioImage from "../../public/assets/BIO.jpg";
@@ -9,6 +10,9 @@ function Bio() {
 
   return (
     <>
+      <Head>
+        <title>Marcio Silva - Biografia</title>
+      </Head>
       <Wrapper>
         <div className="container">
           <h1>{t("bio")}</h1>

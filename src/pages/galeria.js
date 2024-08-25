@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import styled from "styled-components";
 import HoverImage from "../Components/Galeria/HoverImage";
 import MarcioSanta from "../../public/assets/MarcioSanta.jpg";
@@ -18,6 +19,9 @@ function Galeria() {
 
   return (
     <>
+      <Head>
+        <title>Marcio Silva - Galeria</title>
+      </Head>
       <Wrapper>
         <div className="container">
           <h1>{t("Galeria")}</h1>
