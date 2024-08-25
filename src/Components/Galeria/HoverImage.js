@@ -6,7 +6,12 @@ function HoverImage({ src, alt, text }) {
   return (
     <HoverContainer>
       <ImageWrapper>
-        <Image src={src} alt={alt} responsive />
+        <Image
+          src={src}
+          alt={alt}
+          responsive
+          sizes="(max-width: 768px)300px, 500px"
+        />
       </ImageWrapper>
       <HoverText>
         {text.map((line, index) => (
