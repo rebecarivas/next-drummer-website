@@ -21,7 +21,11 @@ function Bio() {
               <p>{t("text")}</p>
             </TextBox>
             <ImageBox>
-              <Image src={BioImage} style={{ width: "100%", height: "auto" }} />
+              <Image
+                src={BioImage}
+                alt="Marcio Silva"
+                style={{ width: "100%", height: "auto" }}
+              />
             </ImageBox>
           </Line>
         </div>
