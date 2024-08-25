@@ -7,7 +7,7 @@ function HoverDisk({ href, src, alt, text }) {
     <a href={href} target="_blank" rel="noopener noreferrer">
       <HoverContainer>
         <ImageWrapper>
-          <Image src={src} alt={alt} width={300} height={300} />
+          <Image src={src} alt={alt} width={300} height="auto" />
         </ImageWrapper>
         <HoverText>
           {text.map((line, index) => (
