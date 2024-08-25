@@ -16,6 +16,7 @@ function Composicao() {
           <h1>{t("composições")}</h1>
           <iframe
             src="https://open.spotify.com/embed/playlist/1nC7r8vyptSrkVuL8Glti2"
+            title="Composições de Marcio Silva no Spotify"
             width="400"
             height="430"
             frameBorder="0"
