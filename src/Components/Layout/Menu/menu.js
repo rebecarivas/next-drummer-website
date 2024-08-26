@@ -145,20 +145,20 @@ const MenuToggle = styled.div`
 const Nav = styled.nav`
   display: flex;
   align-items: center;
-  // animation: scale-in-ver-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-in-ver-top 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
-  // @keyframes scale-in-ver-top {
-  //   0% {
-  //     transform: scaleY(0);
-  //     transform-origin: 100% 0%;
-  //     opacity: 1;
-  //   }
-  //   100% {
-  //     transform: scaleY(1);
-  //     transform-origin: 100% 0%;
-  //     opacity: 1;
-  //   }
-  // }
+  @keyframes scale-in-ver-top {
+    0% {
+      transform: scaleY(0);
+      transform-origin: 100% 0%;
+      opacity: 1;
+    }
+    100% {
+      transform: scaleY(1);
+      transform-origin: 100% 0%;
+      opacity: 1;
+    }
+  }
   button {
     background-color: transparent;
     border: none;

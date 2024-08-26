@@ -73,14 +73,7 @@ const Box = styled.div`
     color: var(--gray);
     font-size: 1.8rem;
   }
-  @media (max-width: 992px) {
-    margin-bottom: 30px;
-    width: 200px;
-    height: 200px;
-    p {
-      text-align: center;
-      font-size: 1.5rem;
-    }
+  @media (min-width: 992px) {
     &.hidden {
       opacity: 0;
       transform: translateX(-100%);
@@ -93,6 +86,24 @@ const Box = styled.div`
       transform: translateX(0);
       transition: all 2s;
     }
+    &:nth-child(1) {
+      transition-delay: 0.5s;
+    }
+    &:nth-child(2) {
+      transition-delay: 1s;
+    }
+    &:nth-child(3) {
+      transition-delay: 2s;
+    }
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 30px;
+    width: 200px;
+    height: 200px;
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+    }
   }
 `;
 const BoxWrapper = styled.div`
@@ -100,16 +111,6 @@ const BoxWrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 30px;
-  /* Aplicando um delay de animação diferente para cada Box */
-  &:nth-child(1) {
-    transition-delay: 0.5s;
-  }
-  &:nth-child(2) {
-    transition-delay: 1s;
-  }
-  &:nth-child(3) {
-    transition-delay: 2s;
-  }
 
   @media (max-width: 992px) {
     flex-direction: column;
