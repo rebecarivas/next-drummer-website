@@ -49,7 +49,7 @@ const Wrapper = styled.div`
     font-weight: bold;
     font-size: 1.7rem;
     padding: 15px 30px;
-    transition: 3s;
+    transition: 0.3s;
     margin-top: 30px;
   }
   a:hover {

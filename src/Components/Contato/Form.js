@@ -120,10 +120,12 @@ const FormContent = styled.div`
     font-weight: bold;
     background-color: var(--yellow);
     color: var(--black);
-    transition: all 250ms linear 0s;
+    transition: 0.3s;
+    border: none;
 
     &:hover {
-      opacity: 0.8;
+      background-color: var(--black);
+      color: var(--yellow);
     }
   }
 `;
