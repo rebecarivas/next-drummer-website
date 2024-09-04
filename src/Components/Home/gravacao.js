@@ -31,7 +31,7 @@ function Gravacao() {
 export default Gravacao;
 
 const Wrapper = styled.div`
-  background-image: url("/assets/gravacao3.jpeg");
+  background-image: url("/assets/gravacao3.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
