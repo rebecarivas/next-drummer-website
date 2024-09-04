@@ -24,6 +24,7 @@ function Home() {
         <Image
           src={HomeImage}
           alt="Marcio Silva na bateria"
+          priority
           style={{
             width: "100vw",
             height: "auto",
