@@ -5,6 +5,13 @@ import Image from "next/image";
 import BioImage from "../../public/assets/BIO.jpg";
 import { useTranslation } from "react-i18next";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Bio() {
   const { t, i18n } = useTranslation();
 

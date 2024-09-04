@@ -14,6 +14,13 @@ import Vasco from "../../public/assets/vasco.jpg";
 import Brasil from "../../public/assets/brasil.jpg";
 import { useTranslation } from "react-i18next";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Galeria() {
   const { t, i18n } = useTranslation();
 

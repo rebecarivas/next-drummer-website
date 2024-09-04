@@ -5,6 +5,13 @@ import Form from "../Components/Contato/Form.js";
 import { FaFacebook, FaInstagram, FaYoutube, FaSpotify } from "react-icons/fa6";
 import { useTranslation } from "react-i18next";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Contato() {
   const { t, i18n } = useTranslation();
 

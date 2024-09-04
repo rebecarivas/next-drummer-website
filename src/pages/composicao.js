@@ -3,6 +3,13 @@ import Head from "next/head";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Composicao() {
   const { t, i18n } = useTranslation();
 

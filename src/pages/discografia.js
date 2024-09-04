@@ -16,6 +16,13 @@ import Memorias from "../../public/assets/memorias.webp";
 import Sereno from "../../public/assets/sereno.jpg";
 import { useTranslation } from "react-i18next";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Discografia() {
   const { t, i18n } = useTranslation();
 
