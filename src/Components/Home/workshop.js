@@ -82,7 +82,6 @@ const Box = styled.div`
 
     &.animate {
       opacity: 1;
-      filter: blur(0);
       transform: translateX(0);
       transition: all 2s;
     }
