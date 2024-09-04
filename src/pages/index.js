@@ -7,6 +7,13 @@ import Youtube from "../Components/Home/youtube";
 import Workshop from "../Components/Home/workshop";
 import Gravacao from "../Components/Home/gravacao";
 
+export async function getStaticProps() {
+  return {
+    props: {},
+    revalidate: 31536000,
+  };
+}
+
 function Home() {
   return (
     <>
