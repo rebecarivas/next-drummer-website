@@ -2,7 +2,7 @@
 
 **Descrição:**
 
-Este é o repositório do website pessoal do baterista Marcio Silva. A aplicação foi desenvolvida utilizando a framework Next.js e tem como objetivo apresentar o trabalho e os projetos do músico.
+Este é o repositório do website pessoal do baterista Marcio Silva. A aplicação foi desenvolvida utilizando a framework Next.js e tem como objetivo apresentar o trabalho e os projetos do músico. Pode ser acessado através do endereço www.marciosilvadrum.com.br
 
 **Tecnologias:**
 * Next.js 14.2.5
