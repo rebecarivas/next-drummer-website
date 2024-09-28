@@ -30,4 +30,5 @@ Este é o repositório do website pessoal do baterista Marcio Silva. A aplicaç�
 Contribuições são bem-vindas! Abra um pull request para propor novas funcionalidades, correções de bugs ou melhorias na documentação.
 
 **Licença:**
+
 Este projeto está licenciado sob a licença MIT.
